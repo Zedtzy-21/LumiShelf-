@@ -1,25 +1,32 @@
 {
-  "name": "backend",
-  "version": "1.0.0",
-  "description": "",
-  "main": "server.js",
-  "type": "module",
-  "scripts": {
-    "start": "node server.js",
-    "dev": "node --watch server.js",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "seed": "node scripts/seed-books.js"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "@google/genai": "^3.4.0",
-    "@google/generative-ai": "^0.24.1",
-    "@supabase/supabase-js": "^2.119.0",
-    "cors": "^2.8.6",
-    "csv-parse": "^7.0.3",
-    "dotenv": "^18.0.9",
-    "express": "^5.3.0"
-  }
+"name": "lumishelf-backend",
+"version": "1.0.0",
+"description": "LumiShelf REST API Gateway, Multi-Mirror Book Reader, and Lumi AI Agent",
+"main": "server.js",
+"type": "module",
+"engines": {
+"node": ">=18.0.0"
+},
+"scripts": {
+"start": "node server.js",
+"dev": "node --watch server.js",
+"seed": "node scripts/seed-books.js"
+},
+"keywords": [
+"lumishelf",
+"elibrary",
+"express",
+"supabase",
+"gemini-ai"
+],
+"author": "",
+"license": "ISC",
+"dependencies": {
+"@google/genai": "^3.4.0",
+"@supabase/supabase-js": "^2.119.0",
+"cors": "^2.8.6",
+"csv-parse": "^7.0.3",
+"dotenv": "^18.0.9",
+"express": "^5.3.0"
+}
 }
