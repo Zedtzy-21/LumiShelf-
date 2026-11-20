@@ -1,8 +1,16 @@
+# Dependencies
 node_modules/
-.expo/
+
+# Build outputs
 dist/
 build/
+
+# Secret Environment Variables (NEVER push these to GitHub!)
 .env
+*.env
 .env.local
+.env.production
+
+# OS & Editor files
 .DS_Store
 Thumbs.db
